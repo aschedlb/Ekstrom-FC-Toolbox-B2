@@ -1,5 +1,7 @@
 function write2Gephi(edges,plotLabels,plotTitle)
 
+% Amber's Comment
+
 global subjID resultsDir
 
 gephiEdges = edges((edges(:,3) == 1),1:2);
